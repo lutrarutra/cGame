@@ -1,0 +1,1 @@
+ -LC:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/lib C:/MinGW/bin/glew32.dll -lSDL2main -lSDL2 -lglew32 -lglew32s -lglfw3 -lglfw3dll -lopengl32 -lglu32 -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cGame"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cGame">
+				<Option output="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/cGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/include"/>
+					<Add directory="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/glew/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 cGame"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="cGame/fast">
+				<Option output="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/cGame.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/include"/>
+					<Add directory="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/glew/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 cGame/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Display.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Display.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/main.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
