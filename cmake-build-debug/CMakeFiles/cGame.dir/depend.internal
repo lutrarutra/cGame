@@ -143,6 +143,7 @@ CMakeFiles/cGame.dir/src/Application.cpp.obj
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Display.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.h
 CMakeFiles/cGame.dir/src/Display.cpp.obj
  ../include/GL/glew.h
@@ -317,6 +318,10 @@ CMakeFiles/cGame.dir/src/Shader.cpp.obj
  ../include/GL/glew.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
+CMakeFiles/cGame.dir/src/Texture.cpp.obj
+ ../include/GL/glew.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
 CMakeFiles/cGame.dir/src/Time.cpp.obj
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.h

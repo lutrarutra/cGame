@@ -1289,6 +1289,8 @@ Mesh.h
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
 Shader.h
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
+Texture.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
 
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.h
 
@@ -1344,6 +1346,18 @@ string
 fstream
 -
 iostream
+-
+
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp
+stdio.h
+-
+Texture.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
+
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
+GL/glew.h
+-
+string
 -
 
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp

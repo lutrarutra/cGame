@@ -116,6 +116,12 @@
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h">
 			<Option target="cGame"/>
 		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h">
+			<Option target="cGame"/>
+		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp">
 			<Option target="cGame"/>
 		</Unit>

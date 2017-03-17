@@ -3,6 +3,7 @@
 #include "Time.h"
 #include "Mesh.h"
 #include "Shader.h"
+#include "Texture.h"
 
 
 Application::Application()
@@ -24,6 +25,9 @@ void Application::runMainLoop()
     float frameCap = 60;
     Mesh mesh(vertices, sizeof(vertices) / sizeof(vertices[0]), indices, sizeof(indices) / sizeof(indices[0]));
     Shader shader("../res/shaders/basicShader");
+    std::string f = "RED.BMP";
+
+    Texture texture(f);
 
     while(Display::isOpen())
     {
@@ -34,6 +38,7 @@ void Application::runMainLoop()
             deltaTime = Time::getCurrentTime();
             Display::clear();
             shader.bind();
+            texture.bind();
             mesh.render();
             Display::swap();
         }

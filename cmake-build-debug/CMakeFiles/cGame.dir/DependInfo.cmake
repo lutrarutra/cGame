@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/Input.cpp.obj"
   "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/Mesh.cpp.obj"
   "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/Shader.cpp.obj"
+  "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/Texture.cpp.obj"
   "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/Time.cpp.obj"
   "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/main.cpp" "C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/cmake-build-debug/CMakeFiles/cGame.dir/src/main.cpp.obj"
   )

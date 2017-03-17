@@ -65,7 +65,7 @@ CMAKE_BINARY_DIR = C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-deb
 CMakeFiles/cGame.dir/all:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/depend
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target cGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target cGame"
 .PHONY : CMakeFiles/cGame.dir/all
 
 # Include target in all.
@@ -75,7 +75,7 @@ all: CMakeFiles/cGame.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/cGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles 9
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/cGame.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/cGame.dir/rule

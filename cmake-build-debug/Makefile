@@ -257,6 +257,33 @@ src/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
 
+src/Texture.obj: src/Texture.cpp.obj
+
+.PHONY : src/Texture.obj
+
+# target to build an object file
+src/Texture.cpp.obj:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.obj
+.PHONY : src/Texture.cpp.obj
+
+src/Texture.i: src/Texture.cpp.i
+
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
+
 src/Time.obj: src/Time.cpp.obj
 
 .PHONY : src/Time.obj
@@ -335,6 +362,9 @@ help:
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s
+	@echo ... src/Texture.obj
+	@echo ... src/Texture.i
+	@echo ... src/Texture.s
 	@echo ... src/Time.obj
 	@echo ... src/Time.i
 	@echo ... src/Time.s

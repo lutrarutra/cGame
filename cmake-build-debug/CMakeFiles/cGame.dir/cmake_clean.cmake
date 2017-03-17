@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/cGame.dir/src/Input.cpp.obj"
   "CMakeFiles/cGame.dir/src/Mesh.cpp.obj"
   "CMakeFiles/cGame.dir/src/Shader.cpp.obj"
+  "CMakeFiles/cGame.dir/src/Texture.cpp.obj"
   "cGame.pdb"
   "cGame.exe"
   "cGame.exe.manifest"
