@@ -140,9 +140,10 @@ CMakeFiles/cGame.dir/src/Application.cpp.obj: ../include/glm/vector_relational.h
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Application.cpp
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Application.h
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Display.h
+CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Loader.h
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Mesh.h
+CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/ModelTexture.h
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Shader.h
-CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Texture.h
 CMakeFiles/cGame.dir/src/Application.cpp.obj: ../src/Time.h
 
 CMakeFiles/cGame.dir/src/Display.cpp.obj: ../include/GL/glew.h
@@ -217,6 +218,11 @@ CMakeFiles/cGame.dir/src/Input.cpp.obj: ../include/SDL2/begin_code.h
 CMakeFiles/cGame.dir/src/Input.cpp.obj: ../include/SDL2/close_code.h
 CMakeFiles/cGame.dir/src/Input.cpp.obj: ../src/Input.cpp
 CMakeFiles/cGame.dir/src/Input.cpp.obj: ../src/Input.h
+
+CMakeFiles/cGame.dir/src/Loader.cpp.obj: ../include/GL/glew.h
+CMakeFiles/cGame.dir/src/Loader.cpp.obj: ../src/Loader.cpp
+CMakeFiles/cGame.dir/src/Loader.cpp.obj: ../src/Loader.h
+CMakeFiles/cGame.dir/src/Loader.cpp.obj: ../src/ModelTexture.h
 
 CMakeFiles/cGame.dir/src/Mesh.cpp.obj: ../include/GL/glew.h
 CMakeFiles/cGame.dir/src/Mesh.cpp.obj: ../include/glm/common.hpp
@@ -314,13 +320,14 @@ CMakeFiles/cGame.dir/src/Mesh.cpp.obj: ../include/glm/vector_relational.hpp
 CMakeFiles/cGame.dir/src/Mesh.cpp.obj: ../src/Mesh.cpp
 CMakeFiles/cGame.dir/src/Mesh.cpp.obj: ../src/Mesh.h
 
+CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: ../include/GL/glew.h
+CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: ../src/Loader.h
+CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: ../src/ModelTexture.cpp
+CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: ../src/ModelTexture.h
+
 CMakeFiles/cGame.dir/src/Shader.cpp.obj: ../include/GL/glew.h
 CMakeFiles/cGame.dir/src/Shader.cpp.obj: ../src/Shader.cpp
 CMakeFiles/cGame.dir/src/Shader.cpp.obj: ../src/Shader.h
-
-CMakeFiles/cGame.dir/src/Texture.cpp.obj: ../include/GL/glew.h
-CMakeFiles/cGame.dir/src/Texture.cpp.obj: ../src/Texture.cpp
-CMakeFiles/cGame.dir/src/Texture.cpp.obj: ../src/Texture.h
 
 CMakeFiles/cGame.dir/src/Time.cpp.obj: ../src/Time.cpp
 CMakeFiles/cGame.dir/src/Time.cpp.obj: ../src/Time.h

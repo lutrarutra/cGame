@@ -1289,8 +1289,10 @@ Mesh.h
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
 Shader.h
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
-Texture.h
-C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
+Loader.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+ModelTexture.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
 
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.h
 
@@ -1322,6 +1324,20 @@ SDL2/SDL_events.h
 vector
 -
 
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.cpp
+Loader.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+stdio.h
+-
+ModelTexture.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
+
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+string
+-
+GL/glew.h
+-
+
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.cpp
 Mesh.h
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
@@ -1333,6 +1349,22 @@ GL/glew.h
 -
 vector
 -
+
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.cpp
+stdio.h
+-
+ModelTexture.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
+Loader.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
+GL/glew.h
+-
+string
+-
+Loader.h
+C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
 
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp
 Shader.h
@@ -1346,18 +1378,6 @@ string
 fstream
 -
 iostream
--
-
-C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp
-stdio.h
--
-Texture.h
-C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
-
-C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
-GL/glew.h
--
-string
 -
 
 C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp

@@ -141,9 +141,10 @@ CMakeFiles/cGame.dir/src/Application.cpp.obj
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Application.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Display.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
- C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.h
 CMakeFiles/cGame.dir/src/Display.cpp.obj
  ../include/GL/glew.h
@@ -218,6 +219,11 @@ CMakeFiles/cGame.dir/src/Input.cpp.obj
  ../include/SDL2/close_code.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.h
+CMakeFiles/cGame.dir/src/Loader.cpp.obj
+ ../include/GL/glew.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.cpp
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
 CMakeFiles/cGame.dir/src/Mesh.cpp.obj
  ../include/GL/glew.h
  ../include/glm/common.hpp
@@ -314,14 +320,15 @@ CMakeFiles/cGame.dir/src/Mesh.cpp.obj
  ../include/glm/vector_relational.hpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h
+CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj
+ ../include/GL/glew.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.cpp
+ C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h
 CMakeFiles/cGame.dir/src/Shader.cpp.obj
  ../include/GL/glew.h
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h
-CMakeFiles/cGame.dir/src/Texture.cpp.obj
- ../include/GL/glew.h
- C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp
- C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h
 CMakeFiles/cGame.dir/src/Time.cpp.obj
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp
  C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.h

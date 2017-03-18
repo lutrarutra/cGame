@@ -1,14 +1,21 @@
+#include "Loader.h"
 #include <stdio.h>
-#include "Texture.h"
+#include "ModelTexture.h"
 
-Texture::Texture(const std::string imagepath)
+Loader::Loader(std::string path)
 {
-    this->m_texture = loadBMP_custom(imagepath);
+    this->m_path = path;
 }
 
-GLuint Texture::loadBMP_custom(std::string imagepath)
+GLuint Loader::LoadTexture()
 {
-    std::string iPath = "../res/textures/" + imagepath;
+    unsigned char header[54];
+    unsigned int dataPos;
+    unsigned  int width, height;
+    unsigned int imageSize;
+    unsigned char * data;
+
+    std::string iPath = "../res/textures/" + m_path;
     FILE * file = fopen(iPath.c_str(), "rb");
 
     if(!file)
@@ -53,9 +60,4 @@ GLuint Texture::loadBMP_custom(std::string imagepath)
     glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 
     return textureID;
-}
-
-void Texture::bind()
-{
-    glBindTexture(GL_TEXTURE_2D, m_texture);
 }

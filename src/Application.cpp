@@ -3,7 +3,8 @@
 #include "Time.h"
 #include "Mesh.h"
 #include "Shader.h"
-#include "Texture.h"
+#include "Loader.h"
+#include "ModelTexture.h"
 
 
 Application::Application()
@@ -27,7 +28,10 @@ void Application::runMainLoop()
     Shader shader("../res/shaders/basicShader");
     std::string f = "RED.BMP";
 
-    Texture texture(f);
+    Loader loader(f);
+
+    ModelTexture modelTexture(loader.LoadTexture());
+
 
     while(Display::isOpen())
     {
@@ -38,7 +42,9 @@ void Application::runMainLoop()
             deltaTime = Time::getCurrentTime();
             Display::clear();
             shader.bind();
-            texture.bind();
+
+            modelTexture.bind();
+
             mesh.render();
             Display::swap();
         }
