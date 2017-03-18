@@ -29,8 +29,10 @@ void Application::runMainLoop()
     std::string f = "RED.BMP";
 
     Loader loader(f);
+    loader.LoadTexture();
 
-    ModelTexture modelTexture(loader.LoadTexture());
+
+    ModelTexture modelTexture(modelTexture.InitTexture(loader.getM_data(), loader.getM_width(), loader.getM_height()));
 
 
     while(Display::isOpen())

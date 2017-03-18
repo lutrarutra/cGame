@@ -47,17 +47,28 @@ GLuint Loader::LoadTexture()
     data = new unsigned char [imageSize];
 
     fread(data, 1, imageSize, file);
-
     fclose(file);
 
-    GLuint textureID;
-    glGenTextures(1, &textureID);
+    this->m_width = width;
+    this->m_height = height;
+    this->m_data = data;
 
-    glBindTexture(GL_TEXTURE_2D, textureID);
-    glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_BGR, GL_UNSIGNED_BYTE, data);
+    return 0;
 
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
-    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
-
-    return textureID;
 }
+
+unsigned char *Loader::getM_data() const {
+    return m_data;
+}
+
+unsigned int Loader::getM_width() const {
+    return m_width;
+}
+
+unsigned int Loader::getM_height() const {
+    return m_height;
+}
+
+
+
+
