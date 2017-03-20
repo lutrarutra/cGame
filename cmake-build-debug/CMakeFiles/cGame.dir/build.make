@@ -231,54 +231,54 @@ CMakeFiles/cGame.dir/src/Shader.cpp.obj.provides: CMakeFiles/cGame.dir/src/Shade
 CMakeFiles/cGame.dir/src/Shader.cpp.obj.provides.build: CMakeFiles/cGame.dir/src/Shader.cpp.obj
 
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: CMakeFiles/cGame.dir/flags.make
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: CMakeFiles/cGame.dir/includes_CXX.rsp
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj: ../src/ModelTexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cGame.dir\src\ModelTexture.cpp.obj -c C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\ModelTexture.cpp
+CMakeFiles/cGame.dir/src/stb_image.c.obj: CMakeFiles/cGame.dir/flags.make
+CMakeFiles/cGame.dir/src/stb_image.c.obj: CMakeFiles/cGame.dir/includes_C.rsp
+CMakeFiles/cGame.dir/src/stb_image.c.obj: ../src/stb_image.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/cGame.dir/src/stb_image.c.obj"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\cGame.dir\src\stb_image.c.obj   -c C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\stb_image.c
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cGame.dir/src/ModelTexture.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\ModelTexture.cpp > CMakeFiles\cGame.dir\src\ModelTexture.cpp.i
+CMakeFiles/cGame.dir/src/stb_image.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/cGame.dir/src/stb_image.c.i"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\stb_image.c > CMakeFiles\cGame.dir\src\stb_image.c.i
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cGame.dir/src/ModelTexture.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\ModelTexture.cpp -o CMakeFiles\cGame.dir\src\ModelTexture.cpp.s
+CMakeFiles/cGame.dir/src/stb_image.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/cGame.dir/src/stb_image.c.s"
+	C:\MinGW\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\stb_image.c -o CMakeFiles\cGame.dir\src\stb_image.c.s
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.requires:
+CMakeFiles/cGame.dir/src/stb_image.c.obj.requires:
 
-.PHONY : CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.requires
+.PHONY : CMakeFiles/cGame.dir/src/stb_image.c.obj.requires
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.provides: CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.provides.build
-.PHONY : CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.provides
+CMakeFiles/cGame.dir/src/stb_image.c.obj.provides: CMakeFiles/cGame.dir/src/stb_image.c.obj.requires
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/stb_image.c.obj.provides.build
+.PHONY : CMakeFiles/cGame.dir/src/stb_image.c.obj.provides
 
-CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.provides.build: CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj
+CMakeFiles/cGame.dir/src/stb_image.c.obj.provides.build: CMakeFiles/cGame.dir/src/stb_image.c.obj
 
 
-CMakeFiles/cGame.dir/src/Loader.cpp.obj: CMakeFiles/cGame.dir/flags.make
-CMakeFiles/cGame.dir/src/Loader.cpp.obj: CMakeFiles/cGame.dir/includes_CXX.rsp
-CMakeFiles/cGame.dir/src/Loader.cpp.obj: ../src/Loader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cGame.dir/src/Loader.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cGame.dir\src\Loader.cpp.obj -c C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Loader.cpp
+CMakeFiles/cGame.dir/src/Texture.cpp.obj: CMakeFiles/cGame.dir/flags.make
+CMakeFiles/cGame.dir/src/Texture.cpp.obj: CMakeFiles/cGame.dir/includes_CXX.rsp
+CMakeFiles/cGame.dir/src/Texture.cpp.obj: ../src/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/cGame.dir/src/Texture.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\cGame.dir\src\Texture.cpp.obj -c C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Texture.cpp
 
-CMakeFiles/cGame.dir/src/Loader.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cGame.dir/src/Loader.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Loader.cpp > CMakeFiles\cGame.dir\src\Loader.cpp.i
+CMakeFiles/cGame.dir/src/Texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cGame.dir/src/Texture.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Texture.cpp > CMakeFiles\cGame.dir\src\Texture.cpp.i
 
-CMakeFiles/cGame.dir/src/Loader.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cGame.dir/src/Loader.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Loader.cpp -o CMakeFiles\cGame.dir\src\Loader.cpp.s
+CMakeFiles/cGame.dir/src/Texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cGame.dir/src/Texture.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\lutrarutra\Desktop\Ohjelmointi\cGame\src\Texture.cpp -o CMakeFiles\cGame.dir\src\Texture.cpp.s
 
-CMakeFiles/cGame.dir/src/Loader.cpp.obj.requires:
+CMakeFiles/cGame.dir/src/Texture.cpp.obj.requires:
 
-.PHONY : CMakeFiles/cGame.dir/src/Loader.cpp.obj.requires
+.PHONY : CMakeFiles/cGame.dir/src/Texture.cpp.obj.requires
 
-CMakeFiles/cGame.dir/src/Loader.cpp.obj.provides: CMakeFiles/cGame.dir/src/Loader.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Loader.cpp.obj.provides.build
-.PHONY : CMakeFiles/cGame.dir/src/Loader.cpp.obj.provides
+CMakeFiles/cGame.dir/src/Texture.cpp.obj.provides: CMakeFiles/cGame.dir/src/Texture.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.obj.provides.build
+.PHONY : CMakeFiles/cGame.dir/src/Texture.cpp.obj.provides
 
-CMakeFiles/cGame.dir/src/Loader.cpp.obj.provides.build: CMakeFiles/cGame.dir/src/Loader.cpp.obj
+CMakeFiles/cGame.dir/src/Texture.cpp.obj.provides.build: CMakeFiles/cGame.dir/src/Texture.cpp.obj
 
 
 # Object files for target cGame
@@ -290,8 +290,8 @@ cGame_OBJECTS = \
 "CMakeFiles/cGame.dir/src/Input.cpp.obj" \
 "CMakeFiles/cGame.dir/src/Mesh.cpp.obj" \
 "CMakeFiles/cGame.dir/src/Shader.cpp.obj" \
-"CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj" \
-"CMakeFiles/cGame.dir/src/Loader.cpp.obj"
+"CMakeFiles/cGame.dir/src/stb_image.c.obj" \
+"CMakeFiles/cGame.dir/src/Texture.cpp.obj"
 
 # External object files for target cGame
 cGame_EXTERNAL_OBJECTS =
@@ -303,8 +303,8 @@ cGame.exe: CMakeFiles/cGame.dir/src/Time.cpp.obj
 cGame.exe: CMakeFiles/cGame.dir/src/Input.cpp.obj
 cGame.exe: CMakeFiles/cGame.dir/src/Mesh.cpp.obj
 cGame.exe: CMakeFiles/cGame.dir/src/Shader.cpp.obj
-cGame.exe: CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj
-cGame.exe: CMakeFiles/cGame.dir/src/Loader.cpp.obj
+cGame.exe: CMakeFiles/cGame.dir/src/stb_image.c.obj
+cGame.exe: CMakeFiles/cGame.dir/src/Texture.cpp.obj
 cGame.exe: CMakeFiles/cGame.dir/build.make
 cGame.exe: C:/MinGW/bin/glew32.dll
 cGame.exe: CMakeFiles/cGame.dir/linklibs.rsp
@@ -325,8 +325,8 @@ CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Time.cpp.obj.requires
 CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Input.cpp.obj.requires
 CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Mesh.cpp.obj.requires
 CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Shader.cpp.obj.requires
-CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj.requires
-CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Loader.cpp.obj.requires
+CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/stb_image.c.obj.requires
+CMakeFiles/cGame.dir/requires: CMakeFiles/cGame.dir/src/Texture.cpp.obj.requires
 
 .PHONY : CMakeFiles/cGame.dir/requires
 

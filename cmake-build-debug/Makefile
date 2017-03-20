@@ -203,33 +203,6 @@ src/Input.cpp.s:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Input.cpp.s
 .PHONY : src/Input.cpp.s
 
-src/Loader.obj: src/Loader.cpp.obj
-
-.PHONY : src/Loader.obj
-
-# target to build an object file
-src/Loader.cpp.obj:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Loader.cpp.obj
-.PHONY : src/Loader.cpp.obj
-
-src/Loader.i: src/Loader.cpp.i
-
-.PHONY : src/Loader.i
-
-# target to preprocess a source file
-src/Loader.cpp.i:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Loader.cpp.i
-.PHONY : src/Loader.cpp.i
-
-src/Loader.s: src/Loader.cpp.s
-
-.PHONY : src/Loader.s
-
-# target to generate assembly for a file
-src/Loader.cpp.s:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Loader.cpp.s
-.PHONY : src/Loader.cpp.s
-
 src/Mesh.obj: src/Mesh.cpp.obj
 
 .PHONY : src/Mesh.obj
@@ -257,33 +230,6 @@ src/Mesh.cpp.s:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Mesh.cpp.s
 .PHONY : src/Mesh.cpp.s
 
-src/ModelTexture.obj: src/ModelTexture.cpp.obj
-
-.PHONY : src/ModelTexture.obj
-
-# target to build an object file
-src/ModelTexture.cpp.obj:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj
-.PHONY : src/ModelTexture.cpp.obj
-
-src/ModelTexture.i: src/ModelTexture.cpp.i
-
-.PHONY : src/ModelTexture.i
-
-# target to preprocess a source file
-src/ModelTexture.cpp.i:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/ModelTexture.cpp.i
-.PHONY : src/ModelTexture.cpp.i
-
-src/ModelTexture.s: src/ModelTexture.cpp.s
-
-.PHONY : src/ModelTexture.s
-
-# target to generate assembly for a file
-src/ModelTexture.cpp.s:
-	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/ModelTexture.cpp.s
-.PHONY : src/ModelTexture.cpp.s
-
 src/Shader.obj: src/Shader.cpp.obj
 
 .PHONY : src/Shader.obj
@@ -310,6 +256,33 @@ src/Shader.s: src/Shader.cpp.s
 src/Shader.cpp.s:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Shader.cpp.s
 .PHONY : src/Shader.cpp.s
+
+src/Texture.obj: src/Texture.cpp.obj
+
+.PHONY : src/Texture.obj
+
+# target to build an object file
+src/Texture.cpp.obj:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.obj
+.PHONY : src/Texture.cpp.obj
+
+src/Texture.i: src/Texture.cpp.i
+
+.PHONY : src/Texture.i
+
+# target to preprocess a source file
+src/Texture.cpp.i:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.i
+.PHONY : src/Texture.cpp.i
+
+src/Texture.s: src/Texture.cpp.s
+
+.PHONY : src/Texture.s
+
+# target to generate assembly for a file
+src/Texture.cpp.s:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/Texture.cpp.s
+.PHONY : src/Texture.cpp.s
 
 src/Time.obj: src/Time.cpp.obj
 
@@ -365,6 +338,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/stb_image.obj: src/stb_image.c.obj
+
+.PHONY : src/stb_image.obj
+
+# target to build an object file
+src/stb_image.c.obj:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/stb_image.c.obj
+.PHONY : src/stb_image.c.obj
+
+src/stb_image.i: src/stb_image.c.i
+
+.PHONY : src/stb_image.i
+
+# target to preprocess a source file
+src/stb_image.c.i:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/stb_image.c.i
+.PHONY : src/stb_image.c.i
+
+src/stb_image.s: src/stb_image.c.s
+
+.PHONY : src/stb_image.s
+
+# target to generate assembly for a file
+src/stb_image.c.s:
+	$(MAKE) -f CMakeFiles\cGame.dir\build.make CMakeFiles/cGame.dir/src/stb_image.c.s
+.PHONY : src/stb_image.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -383,24 +383,24 @@ help:
 	@echo ... src/Input.obj
 	@echo ... src/Input.i
 	@echo ... src/Input.s
-	@echo ... src/Loader.obj
-	@echo ... src/Loader.i
-	@echo ... src/Loader.s
 	@echo ... src/Mesh.obj
 	@echo ... src/Mesh.i
 	@echo ... src/Mesh.s
-	@echo ... src/ModelTexture.obj
-	@echo ... src/ModelTexture.i
-	@echo ... src/ModelTexture.s
 	@echo ... src/Shader.obj
 	@echo ... src/Shader.i
 	@echo ... src/Shader.s
+	@echo ... src/Texture.obj
+	@echo ... src/Texture.i
+	@echo ... src/Texture.s
 	@echo ... src/Time.obj
 	@echo ... src/Time.i
 	@echo ... src/Time.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/stb_image.obj
+	@echo ... src/stb_image.i
+	@echo ... src/stb_image.s
 .PHONY : help
 
 

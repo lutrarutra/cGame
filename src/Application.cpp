@@ -3,8 +3,7 @@
 #include "Time.h"
 #include "Mesh.h"
 #include "Shader.h"
-#include "Loader.h"
-#include "ModelTexture.h"
+#include "Texture.h"
 
 
 Application::Application()
@@ -12,13 +11,14 @@ Application::Application()
     Display::init();
 }
 
-Vertex vertices[] = { Vertex(glm::vec3(-0.5, 0.5, 0)),
-                      Vertex(glm::vec3(-0.5, -0.5, 0)),
-                      Vertex(glm::vec3(0.5, -0.5, 0)),
-                      Vertex(glm::vec3(0.5, 0.5, 0))
+Vertex vertices[] = { Vertex(glm::vec3(-0.5, 0.5, 0), glm::vec2(0,0)),
+                      Vertex(glm::vec3(-0.5, -0.5, 0),  glm::vec2(0,0)),
+                      Vertex(glm::vec3(0.5, -0.5, 0),  glm::vec2(0,0)),
+                      Vertex(glm::vec3(0.5, 0.5, 0),  glm::vec2(0,0))
 };
 
 unsigned int indices[] = {  0, 1, 3, 1, 2, 3};
+
 
 void Application::runMainLoop()
 {
@@ -26,14 +26,8 @@ void Application::runMainLoop()
     float frameCap = 60;
     Mesh mesh(vertices, sizeof(vertices) / sizeof(vertices[0]), indices, sizeof(indices) / sizeof(indices[0]));
     Shader shader("../res/shaders/basicShader");
-    std::string f = "RED.BMP";
 
-    Loader loader(f);
-    loader.LoadTexture();
-
-
-    ModelTexture modelTexture(modelTexture.InitTexture(loader.getM_data(), loader.getM_width(), loader.getM_height()));
-
+    Texture texture("../res/textures/bricks.jpg");
 
     while(Display::isOpen())
     {
@@ -45,7 +39,7 @@ void Application::runMainLoop()
             Display::clear();
             shader.bind();
 
-            modelTexture.bind();
+            texture.Bind(1);
 
             mesh.render();
             Display::swap();

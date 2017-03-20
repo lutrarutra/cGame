@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cGame.dir/src/Input.cpp.obj"
   "CMakeFiles/cGame.dir/src/Mesh.cpp.obj"
   "CMakeFiles/cGame.dir/src/Shader.cpp.obj"
-  "CMakeFiles/cGame.dir/src/ModelTexture.cpp.obj"
-  "CMakeFiles/cGame.dir/src/Loader.cpp.obj"
+  "CMakeFiles/cGame.dir/src/stb_image.c.obj"
+  "CMakeFiles/cGame.dir/src/Texture.cpp.obj"
   "cGame.pdb"
   "cGame.exe"
   "cGame.exe.manifest"
@@ -15,6 +15,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/cGame.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

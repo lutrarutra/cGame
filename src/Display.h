@@ -1,6 +1,3 @@
-#ifndef CGAME_DISPLAY_H
-#define CGAME_DISPLAY_H
-
 #include "SDL2/SDL.h"
 #include "GL/glew.h"
 #include <iostream>
@@ -18,6 +15,3 @@ namespace Display
     constexpr int HEIGHT = 720;
 
 };
-
-
-#endif //CGAME_DISPLAY_H

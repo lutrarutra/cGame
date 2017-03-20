@@ -11,6 +11,7 @@ Mesh::Mesh(Vertex *vertices, unsigned numVertices, unsigned int *indices, unsign
     for(unsigned int i = 0; i < numVertices; i++)
     {
         model.positions.push_back(*vertices[i].getPos());
+        model.texCoords.push_back(*vertices[i].getTexCoord());
     }
 
     for(unsigned int i = 0; i < numIndices; i++)
@@ -43,6 +44,12 @@ void Mesh::initMesh(IndexedModel model)
 
     glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, VBO[INDEX_VB]);
     glBufferData(GL_ELEMENT_ARRAY_BUFFER, model.indices.size() * sizeof(model.indices[0]), &model.indices[0], GL_STATIC_DRAW);
+
+    glEnableVertexAttribArray(2);
+    glVertexAttribPointer(1 , 2,GL_FLOAT, GL_FALSE, 0, 0);
+
+    glBindBuffer(GL_ARRAY_BUFFER, VBO[TEXCOORD_VB]);
+    glBufferData(GL_ARRAY_BUFFER, model.positions.size() * sizeof(model.texCoords[0]), &model.texCoords[0], 0);
 
     glBindVertexArray(0);
 

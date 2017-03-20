@@ -104,28 +104,22 @@
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Input.h">
 			<Option target="cGame"/>
 		</Unit>
-		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.cpp">
-			<Option target="cGame"/>
-		</Unit>
-		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Loader.h">
-			<Option target="cGame"/>
-		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.cpp">
 			<Option target="cGame"/>
 		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Mesh.h">
 			<Option target="cGame"/>
 		</Unit>
-		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.cpp">
-			<Option target="cGame"/>
-		</Unit>
-		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/ModelTexture.h">
-			<Option target="cGame"/>
-		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.cpp">
 			<Option target="cGame"/>
 		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Shader.h">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Texture.h">
 			<Option target="cGame"/>
 		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/Time.cpp">
@@ -135,6 +129,12 @@
 			<Option target="cGame"/>
 		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/main.cpp">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/stb_image.c">
+			<Option target="cGame"/>
+		</Unit>
+		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/src/stb_image.h">
 			<Option target="cGame"/>
 		</Unit>
 		<Unit filename="C:/Users/lutrarutra/Desktop/Ohjelmointi/cGame/CMakeLists.txt">
